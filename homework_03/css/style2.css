@@ -1,0 +1,76 @@
+/*mixin setup go!*/
+/*mixin completed*/
+body {
+  background-color: #DCFDFD; }
+  body div.brief {
+    width: auto;
+    height: 20%;
+    background-color: #fff178;
+    font-size: 12px;
+    color: #0e0d0d;
+    padding: 25px 1px 25px 25px;
+    margin: 1px 5px 7px 1px;
+    float: none; }
+  body #content {
+    color: #ffffff;
+    background-color: #3B3B3B;
+    margin: 5px 100px 5px 100px;
+    padding: 20px; }
+    body #content h1, body #content h2 {
+      color: #FCCD10; }
+    body #content h1 {
+      text-align: center; }
+    body #content img.img-left {
+      float: left;
+      border: 2px solid #FCCD10;
+      padding: 2px;
+      margin: 1px 15px 15px 1px; }
+    body #content img.img-right {
+      float: right;
+      border: 2px solid #FCCD10;
+      margin: 5px 5px 5px 5px;
+      padding: 2px; }
+    body #content p {
+      font-family: serif;
+      font-size: 14px;
+      margin: 5px 1px 1px 2px;
+      line-height: 19px; }
+    body #content table {
+      width: 100%;
+      border-collapse: collapse; }
+    body #content th {
+      color: #0e0d0d;
+      background-color: #94a34e;
+      padding: 10px;
+      text-align: left; }
+    body #content td {
+      background-color: #677d01;
+      border-bottom: 1px solid #94a34e;
+      font-size: 14px;
+      line-height: 30px; }
+    body #content caption {
+      padding-top: 25px;
+      color: #0e0d0d;
+      display: table-caption;
+      text-align: right; }
+    body #content a {
+      color: #FCCD10; }
+    body #content input[type=text] {
+      width: 100%;
+      padding: 5px;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px; }
+    body #content input[type=submit] {
+      font-size: 20px;
+      background-color: #3B3B3B;
+      color: #FCCD10;
+      padding: 12px 65px 12px 65px;
+      border: 1px solid #FCCD10;
+      cursor: pointer; }
+    body #content .fname, body #content .lname {
+      width: 49.5%;
+      display: inline-block; }
+    body #content .lname {
+      float: right; }

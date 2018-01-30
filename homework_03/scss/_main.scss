@@ -1,0 +1,113 @@
+@mixin brief ($brwidth, $h20, $bcbr, $fsbr, $fcolor, $padbr, $marbr, $fl) {
+    width: $brwidth;
+    height: $h20;
+    background-color: $bcbr;
+    font-size: $fsbr;
+    color: $fcolor;
+    padding: $padbr;
+    margin: $marbr;
+    float: $fl;
+}
+// content properties
+//
+body {
+background-color: $bodybc;
+
+div.brief {
+@include brief ($brwidth, $h20, $bcbr, $fsbr, $fcolor, $padbr, $marbr, $fl);
+}
+
+#content {
+color: $ccolor;
+background-color: $bcc;
+margin: 5px 100px 5px 100px;
+padding: 20px;
+
+h1, h2 {
+color: $hcolor;
+}
+
+h1 {
+text-align: center;
+}
+
+img.img-left {
+float: left;
+border: $bi;
+padding: 2px;
+margin: 1px 15px 15px 1px;
+}
+
+img.img-right {
+float: right;
+border: $borir;
+margin: 5px 5px 5px 5px;
+padding: 2px;
+}
+
+p {
+font-family: serif;
+font-size: 14px;
+margin: 5px 1px 1px 2px;
+line-height: 19px;
+}
+
+table {
+width: 100%;
+border-collapse: collapse;
+}
+th {
+color: $fcolor;
+background-color: $bcth;
+padding: 10px;
+text-align: left;
+}
+
+td {
+background-color: $bctd;
+border-bottom: $bbtd;
+font-size: 14px;
+line-height: 30px;
+}
+
+caption {
+padding-top: 25px;
+color: $fcolor;
+display: table-caption;
+text-align: right;
+}
+
+a {
+color: $acolor;
+}
+
+
+input[type=text] {
+width: 100%;
+padding: 5px;
+border: $bortt;
+box-sizing: border-box;
+margin-top: 6px;
+margin-bottom: 16px;
+}
+
+input[type=submit] {
+font-size: 20px;
+background-color: $bcc;
+color: $colin;
+padding: 12px 65px 12px 65px;
+border: $borts;
+cursor: pointer;
+}
+
+.fname, .lname {
+width: 49.5%;
+display: inline-block;
+}
+
+.lname {
+float: right;
+}
+
+} 
+} 

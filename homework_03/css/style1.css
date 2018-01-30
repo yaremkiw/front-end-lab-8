@@ -1,0 +1,77 @@
+/*mixin setup go!*/
+/*mixin completed*/
+body {
+  background-color: #dcbb9a; }
+  body div.brief {
+    width: 40%;
+    height: 20%;
+    background-color: #FADCBA;
+    font-size: 12px;
+    color: #000000;
+    padding: 25px;
+    margin: 1px 12px 7px 2px;
+    float: left; }
+  body #content {
+    color: #000000;
+    background-color: #ffffff;
+    margin: 5px 100px 5px 100px;
+    padding: 20px; }
+    body #content h1, body #content h2 {
+      color: #8d4208; }
+    body #content h1 {
+      text-align: center; }
+    body #content img.img-left {
+      float: left;
+      border: 3px solid #893c00;
+      padding: 2px;
+      margin: 1px 15px 15px 1px; }
+    body #content img.img-right {
+      float: right;
+      border: 3px solid #893c00;
+      margin: 5px 5px 5px 5px;
+      padding: 2px; }
+    body #content p {
+      font-family: serif;
+      font-size: 14px;
+      margin: 5px 1px 1px 2px;
+      line-height: 19px; }
+    body #content table {
+      width: 100%;
+      border-collapse: collapse; }
+    body #content th {
+      color: #000000;
+      background-color: #E0E0E0;
+      padding: 10px;
+      text-align: left; }
+    body #content td {
+      background-color: #ffffff;
+      border-bottom: 1px solid #ddd;
+      font-size: 14px;
+      line-height: 30px; }
+    body #content caption {
+      padding-top: 25px;
+      color: #000000;
+      display: table-caption;
+      text-align: right; }
+    body #content a {
+      color: #0000EE; }
+    body #content input[type=text] {
+      width: 100%;
+      padding: 5px;
+      border: 1px solid #808080;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px; }
+    body #content input[type=submit] {
+      font-size: 20px;
+      background-color: #ffffff;
+      color: #3d70a1;
+      padding: 12px 65px 12px 65px;
+      border: 1px solid #3d70a1;
+      cursor: pointer; }
+    body #content .fname, body #content .lname {
+      width: 49.5%;
+      display: inline-block; }
+    body #content .lname {
+      float: right; }

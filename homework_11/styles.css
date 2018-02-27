@@ -1,0 +1,27 @@
+/* Your styles goes here */
+
+li {
+    list-style: none;
+  }
+
+  .file i {
+    color: rgb(194, 181, 181);
+  }
+ 
+  p:hover {
+    background-color: rgb(226, 221, 221);
+  }
+  p {
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    margin: 5px;
+  }
+  .empty{
+    font-style: italic;
+    font-size: 24px;
+    padding-left: 20px;
+  }
+  i {
+    color: #e9db18;
+  }
